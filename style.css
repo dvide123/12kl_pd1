@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+.block-1
+ {position:fixed;
+    left:0;
+    top:0;
+    width:40%;
+    height:100%;
+    background:rgb(19, 147, 221)
+    ;color:rgb(255, 255, 255)
+    ;overflow:auto;}
+.block-2 
+{position:fixed;
+    right:0;
+    top:0;
+    width:60%;
+    height:100%;
+    background: white;
+    color:rgb(19, 147, 221);
+    overflow:auto;}
+    .block3{
+        position:fixed;
+        left: 5%; 
+        width:30%;
+        height:100%;
+
+    }
+    .block4{
+        position:fixed;
+        right: 0;
+        margin-top: 25px;
+        width:70%;
+        height:100%;
+
+    }
+.titel {padding-top: 89px;text-align: center; font-size: 25px;}
+.line { padding-right: 25%; padding-left: 25%;}
+.line_main{padding-right: 10%; padding-left: 10%; }
+
+.subtitel {text-align: center;font-size: 18px;}
+.fig {text-align: center;}
+.titel2 {padding-top: 5%; padding-left: 15%; text-align: left;  font-size: 30px;}
+.text {padding-left: 15%; text-align: left;color:rgb(0, 0, 0); font-size: 20px; }
+.text2 {padding-left: 5%; text-align: left;color:rgb(0, 0, 0); font-size: 20px; text-decoration: underline;
+     text-decoration-color:rgb(19, 147, 221); }
+.hide{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(19, 147, 221);
+    color: rgb(19, 147, 221);
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.hide_revers{
+    margin: 0 10px;
+    
+    text-decoration: none;
+    background-color: rgb(19, 147, 221);
+    border: 1px solid rgb(19, 147, 221);
+    color: rgb(246, 246, 247);
+    padding: 10px 25px;
+    border-radius: 25px;
+    
+}
+.help_buttons{
+    margin-bottom: 20%;
+
+}
+.hero_button{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(0, 38, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.hero_button2{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(0, 38, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    
+}
+.hero_button3{
+    
+    text-decoration: none;
+    background-color: rgb(0, 38, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+}
+
+.buttons {
+    padding-left: 12%; text-align: left;
+}
+.error_button {
+    position: absolute ;bottom:0; right: 5%;
+    
+    padding-bottom: 5%;
+    padding-right: 5%;
+}
+.hide1{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(228, 84, 1);
+    border: 1px solid rgb(228, 84, 1);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    
+}
+.back{
+    margin: 5% 15%;
+   
+}
+.back2{
+    margin: 40px 5%;
+   
+}
+.back_button{
+ 
+    text-decoration: none;
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+}
+.form{
+    padding-left: 130px; text-align: left;color:rgb(0, 0, 0);
+}
+.profile{
+    text-decoration: none;
+    color: rgb(19, 147, 221);
+}
+.block-up{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:40%;
+    background:rgb(255, 255, 255)
+    ;color:rgb(0, 0, 0)
+    ;overflow:auto;
+}
+.block-down 
+{position:fixed;
+    right:0;
+    bottom:0;
+    padding-left: 5%;
+    width:100%;
+    height:60%;
+    background: white;
+    color:rgb(0, 0, 0);
+    overflow:auto;}
+.titelreg{
+        color: rgb(19, 147, 221);
+        padding-left: 5%;
+        text-align: left; 
+        font-size: 25px;
+    }
+    .search{
+        position: relative;
+        width: 100%;
+        max-width: 120px;
+        
+    }
+    
+    .search_input{
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
+    }
+    
+    
+    .search_image{
+        right: 1px; 
+        top: 1px;
+    }
+    
+    .search_form{
+        display: inline-block;
+        padding-left: 5%;
+        padding-top: 30px;
+        
+    }
+    .tabel{
+        font-size: 20px;
+        width: 1200px;
+        border-collapse: collapse;
+        height: 300px;
+    }
+    .row1{
+       
+        background-color: rgb(16, 0, 29);
+        color: white;
+        border: 0px;
+    }
+    
