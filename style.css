@@ -53,6 +53,16 @@
     padding: 10px 25px;
     border-radius: 25px;
 }
+.hide2{
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(19, 147, 221);
+    color: rgb(19, 147, 221);
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
 .hide_revers{
     margin: 0 10px;
     
@@ -184,14 +194,24 @@
     }
     .tabel{
         font-size: 20px;
-        width: 1200px;
+        width: 80%;
         border-collapse: collapse;
         height: 300px;
-    }
+        position: absolute;
+    } 
+    
+
     .row1{
        
         background-color: rgb(16, 0, 29);
         color: white;
         border: 0px;
     }
+
+    .hidden{
+        visibility: hidden;
+    }
+    
+
+  
     
